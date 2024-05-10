@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vh;
+    position: fixed;
+    background-color: aliceblue;
+    z-index: 20%;
+}
+
+nav {
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+nav h1 {
+    font-size: xx-large;
+    justify-content: first baseline;
+    gap: 18px;
+}
+
+nav button {
+    border: none;
+    background: none;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(73, 72, 72);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+nav button:hover {
+    color: rgb(0, 0, 0);
+}
+
+section.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.hero {
+    background-color: rgb(36, 25, 7); 
+    padding: 200px; 
+}
+
+.hero img {
+    max-width: 100%; /* Make sure the image fits within its container */
+}
+
+.hero .content {
+    text-align: center; 
+    margin-top: 20px; 
+    color: aliceblue;
+}
+
+.hero h3 {
+    font-size: 24px; 
+}
+
+.hero p {
+    font-size: 16px; 
+}
+
+.hero button {
+    background-color: #ebecee;
+    color: rgb(22, 15, 4);
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #cdd2d7; 
+}
+
