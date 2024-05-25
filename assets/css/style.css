@@ -49,15 +49,15 @@ body {
 }
 
 .image-container {
-    width: 100%; /* Adjust the width as needed */
-    margin-left: 100px; /* Add some space between the image and the text */
+    width: 100%;
+    margin-left: 100px;
     height: auto;
     max-height: 100%
 }
 
 
 .image-container img {
-    width: 100%; /* Make the image responsive */
+    width: 120%;
     margin-left: 10%;
     margin-top: 20%;
 }
